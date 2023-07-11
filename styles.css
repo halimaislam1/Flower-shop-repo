@@ -1,0 +1,78 @@
+/* home page releted style */
+.home-page-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 400px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+   
+}
+.home-page-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.home-page-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 580px;
+}
+
+.home-page-img-design {
+    height: 800px;
+    width: 1400px;
+    padding-top: 50px;
+
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
+
+/* hot deal section */
+
+.hot-deal-container {
+    display: flex;
+    justify-content:space-around;
+    
+    background: rgba(229, 84, 115, 0.05);
+
+    height: 620px;
+    align-items:center;
+
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.hot-deal-description {
+
+}
+
+.hot-deal-info {
+    text-align: center;
+    padding-top:50px ;
+    padding-left: 800px;
+    
+
+}
+.hot-deal-img{
+    padding-top: 80px;
+    padding-right: 600px;
+    /* padding-block:1000px; */
+
+   
+}
