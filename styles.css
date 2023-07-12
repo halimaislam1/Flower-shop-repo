@@ -180,42 +180,58 @@
 
 
 /* Instagram releted section  */
-.social-media-container {
-    height: 100vh;
-    align-items: center;
-    background: #FFF;
-    padding-left: 700px;
-    margin-top: 128px;
+
+.social-media-banner{
+    /* display: flex; */
+    /* gap: 200px; */
+    width: 100%;
+     height: 100vh;
 }
 
-/* .social-media-info{
+.social-media-container {
     align-items: center;
-    padding-left:600px ;
-} */
+    background: #80b69a;
+    padding-left: 100px;
+    /* margin-top: 5px;
+    padding-top: auto;  */
+}
+
+.social-media-info{
+    align-items: center;
+    text-align: center;
+    padding-right:600px ;
+}
 
 .social-media-title {
     color: #272727;
-    text-align: left;
     font-size: 40px;
     font-weight: 800;
     padding-left: 600px;
     gap: 24px;
+    padding-top: 20px;
+    
 }
 
 .social-media-description {
-    align-items: center;
-    padding-left: 430px;
+    padding-left: 600px;
     padding-bottom: 20px;
 }
 
-.soicial-media-des-contant {
-    margin-left: 100px;
 
+ .social-media-flower-image{
+    /* position: static; */
+    align-items: center;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+   
 }
 
-.image-container {
-    padding-bottom: 128px;
-}
+
+
+
+
+
 
 /* baground image releted style */
 .baground-img-container {
