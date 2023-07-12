@@ -60,16 +60,24 @@
 
 .featured-flower-info {
     padding-left: 700px;
-    /* width: 0%; */
     position: static;
 }
 
-.text-container {
+.Featured-text-container{
+    /* display: flex; 
+   justify-content: space-around; */
+   gap: 10px;
+   padding-bottom: 20px;
+}
+
+.featured-text-info {
     justify-content: space-around;
     display: flex;
     text-decoration: underline;
     font-size: 18px;
-    padding-inline-start: 200px;
+    padding-bottom: 100px;
+
+    /* padding-inline-start: 200px; */
 
 }
 
