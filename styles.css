@@ -182,7 +182,7 @@
 
 .social-media-banner{
     width: 100%;
-     height: 100vh;
+     height: 80vh;
 }
 
 .social-media-container {
@@ -214,6 +214,11 @@
     padding-bottom: 20px;
 }
 
+.social-media-flower-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
  .social-media-flower-image{
     align-items: center;
