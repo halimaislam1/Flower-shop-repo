@@ -88,7 +88,7 @@
     }
     .fresh-flower-second{
         width: 800px;
-        padding-left: 100px;
+        padding-left: 0px;
         position: static;
   }
 
@@ -119,6 +119,7 @@
     text-decoration: underline;
     font-size: 18px;
     padding-bottom: 100px;
+
 }
 
 .featured-flower-title {
