@@ -48,9 +48,6 @@
 
 /* Main section  page*/
 /* fresh flower section */
-    /* .fresh-flower-banner{
-    
-    } */
 
     .fresh-flower-container{
         width:100%;
@@ -93,23 +90,7 @@
         width: 800px;
         padding-left: 100px;
         position: static;
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-
-
+  }
 
     /* FEAtured section style */
 
@@ -128,8 +109,6 @@
 }
 
 .Featured-text-container{
-    /* display: flex; 
-   justify-content: space-around; */
    gap: 10px;
    padding-bottom: 20px;
 }
@@ -140,9 +119,6 @@
     text-decoration: underline;
     font-size: 18px;
     padding-bottom: 100px;
-
-    /* padding-inline-start: 200px; */
-
 }
 
 .featured-flower-title {
