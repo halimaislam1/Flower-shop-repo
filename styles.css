@@ -1,24 +1,18 @@
-/* home page releted style */
-/* *{margin: 0;
-  border: 0;
 
-} */
-.home-page-container{
-     width: 50%;
-    padding: 30px 30px 0px 100px;
-    display:flex;
+.home-page-container {
+    width: 50%;
+    padding: 30px 30px 0px 300px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 150px;
-  
 }
 
 
-.home-page-banner-container{
+.home-page-banner-container {
     padding-right: 100px;
     padding-left: 100px;
     background: rgba(229, 84, 115, 0.10);
-    
 }
 
 
@@ -53,36 +47,31 @@
     margin-top: 10px;
 }
 
-
-
-
 /* Main section FEAtured page*/
 
 .featured-flower-container {
-   
-   width: 50%;
+
+    width: 50%;
     background: #FFF;
     text-align: center;
     padding-top: 60px;
-   
 }
-.featured-flower-info{
+
+
+.featured-flower-info {
     padding-left: 700px;
     width: 70%;
     position: static;
 }
 
-.text-container{
+.text-container {
     justify-content: space-around;
     display: flex;
     text-decoration: underline;
     font-size: 18px;
     padding-inline-start: 200px;
-    
+
 }
-
-
-
 
 .featured-flower-title {
     color: #272727;
@@ -93,31 +82,25 @@
 .featured-flower-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
-    font-weight: 600;
-    
-    /* padding-inline-end: 10px; */
+    font-weight: 500;
 }
 
 
 .featured-flower-images {
- 
     padding-block: 70px;
     display: flex;
     border-radius: 300px 300px 0px 0px;
     gap: 20px;
-   position:static;
+    position: static;
     padding-left: 400px;
     padding-bottom: 40px;
-    
 }
 
+
 .puple-color-flower-image {
- 
     padding-right: 30px;
     padding-left: 50px;
     padding-top: 70px;
-    
-    /* background-position: left; */
     border-top-left-radius: 200px 300px;
     border-top-right-radius: 200px 300px;
     border-bottom-right-radius: 78px 0px;
@@ -126,91 +109,73 @@
     background: rgba(167, 33, 98, 0.15);
 }
 
-    .red-flower-img {
-        padding-right: 25px;
-        padding-left: 10px;
-        padding-top: 120px;
-        /* background-position: left; */
-        border-top-left-radius: 200px 300px;
-        border-top-right-radius: 200px 300px;
-        border-bottom-right-radius: 78px 0px;
-        border-bottom-left-radius: 6px 200px;
-        border-bottom-right-radius: 6px 200px;
 
-        background: rgba(5, 151, 160, 0.15);
-    }
-
-    .Yellow-flower-flower-img {
-        padding-right: 25px;
-        padding-left: 20px;
-        padding-top: 30px;
-        /* background-position: left; */
-        border-top-left-radius: 200px 300px;
-        border-top-right-radius: 200px 300px;
-        border-bottom-right-radius: 78px 0px;
-        border-bottom-left-radius: 6px 200px;
-        border-bottom-right-radius: 6px 200px;
-        background: rgba(71, 125, 17, 0.15);
-        
-
-    }
+.red-flower-img {
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-top: 120px;
+    border-top-left-radius: 200px 300px;
+    border-top-right-radius: 200px 300px;
+    border-bottom-right-radius: 78px 0px;
+    border-bottom-left-radius: 6px 200px;
+    border-bottom-right-radius: 6px 200px;
+    background: rgba(5, 151, 160, 0.15);
+}
 
 
-
-
-
-
-
-
-
-
-
+.Yellow-flower-flower-img {
+    padding-right: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* background-position: left; */
+    border-top-left-radius: 200px 300px;
+    border-top-right-radius: 200px 300px;
+    border-bottom-right-radius: 78px 0px;
+    border-bottom-left-radius: 6px 200px;
+    border-bottom-right-radius: 6px 200px;
+    background: rgba(71, 125, 17, 0.15);
+}
 
 
 /* hot deal section */
 
-
-
-
-
-
-
-
-
-
 .hot-deal-container {
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
-
     background: rgba(229, 84, 115, 0.05);
-
-    height: 620px;
+    text-align: center;
     align-items: center;
-
+    position: static;
 }
+
 
 .hot-deal-title {
     color: #272727;
+    padding-left: 50px;
     font-size: 40px;
     font-weight: 800;
-
 }
 
 
 .hot-deal-info {
+    width: 100%;
     text-align: center;
     padding-top: 50px;
-    padding-left: 800px;
-
-
+    padding-left: 200px;
 }
+
+
+.hot-deal-description{
+    align-items: center;
+    padding-left: 50px;
+}
+
 
 .hot-deal-img {
     padding-top: 80px;
-    padding-right: 600px;
-
-
-
+    padding-right: 300px; 
 }
 
 /* Instagram releted section  */
@@ -305,8 +270,8 @@
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
-    padding-right:100px ;
-    
+    padding-right: 100px;
+
 }
 
 .Shop-color {
@@ -319,7 +284,7 @@
     font-size: 18px;
     font-weight: 400;
     width: 550px;
-    
+
 
 
 
@@ -333,5 +298,3 @@
 
 
 }
-
-
